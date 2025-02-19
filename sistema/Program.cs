@@ -20,6 +20,7 @@ namespace SistemaAluguelVeiculos
 
             Cliente cliente = new Cliente(clienteId, clienteNome, clienteCPF, clienteTelefone);
 
+            //dados do veiculo
             Console.WriteLine("Insira o ID do veículo:");
             int veiculoId = int.Parse(Console.ReadLine());
 
