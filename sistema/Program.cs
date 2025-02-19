@@ -1,11 +1,10 @@
-﻿using System;
-
-namespace SistemaAluguelVeiculos
+﻿namespace SistemaAluguelVeiculos
 {
     class Program
     {
-        static void Main(string[] args){
-            //dados do usuario
+        static void Main(string[] args)
+        {
+            //dados do vagabundoooo
             Console.WriteLine("Insira o ID do cliente:");
             int clienteId = int.Parse(Console.ReadLine());
 
