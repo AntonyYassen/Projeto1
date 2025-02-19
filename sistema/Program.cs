@@ -5,6 +5,7 @@ namespace SistemaAluguelVeiculos
     class Program
     {
         static void Main(string[] args){
+            //dados do usuario
             Console.WriteLine("Insira o ID do cliente:");
             int clienteId = int.Parse(Console.ReadLine());
 
